@@ -1,0 +1,340 @@
+/*头部颜色，图标,底部字体颜色*/
+.lh-fr-header,.lh-nav-item,.footer-content{
+  color: #FFFFFF;
+}
+.lh-nav-item:before{
+  background-position-y: -25px;
+}
+
+@media screen and (min-width:1920px){
+  .lh-indexDetail{
+    width:500px;
+    margin:0 auto;
+    text-align: center;
+  }
+}
+@media screen and (min-width:1680px) and (max-width:1920px){
+  .lh-indexDetail{
+    width:450px;
+    margin:0 auto;
+    text-align: center;
+  }
+}
+@media screen and (min-width:1440px) and (max-width:1680px){
+  .lh-indexDetail{
+    width:400px;
+    margin:0 auto;
+    text-align: center;
+  }
+}
+@media screen and (min-width:1366px) and (max-width:1440px){
+  .lh-indexDetail{
+    width:380px;
+    margin:0 auto;
+    text-align: center;
+  }
+}
+@media screen and (min-width:1200px) and (max-width:1366px){
+  .lh-indexDetail{
+    width:350px;
+    margin:0 auto;
+    text-align: center;
+  }
+}
+@media screen and (max-width:1200px){
+  .lh-indexDetail{
+    width:350px;
+    margin:0 auto;
+    text-align: center;
+  }
+}
+
+
+
+.lh-indexDetail>div{
+  position: relative;
+}
+
+.lh-indexDetail>div>img{
+  width:100%;
+}
+
+.lh-indexDetail-title{
+  font-size: 20px;
+  color: #333333;
+  padding-bottom: 30px;
+}
+
+
+/*
+贡品区
+*/
+.lh-tributes{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left:0;
+  background: rgba(0,0,0,0.5);
+}
+
+.lh-tributes li{
+  flex:1;
+  float: left;
+  width:20%;
+  padding:10px;
+  margin:0 auto;
+  box-sizing: border-box;
+}
+.lh-tributes li img{
+  width:100%;
+}
+/*时间显示区*/
+.lh-indexDetail-domenu{
+  padding:15px 0 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.lh-indexDetail-domenu>div{
+  display: inline-block;
+  overflow: hidden;
+}
+.lh-domenu:before{
+  display: block;
+  width: 43px;
+  height:43px;
+  margin-bottom: 16px;
+  content: '';
+  background-image: url("../../img/web/index_detail_playIcon.png");
+  background-repeat: no-repeat;
+  background-position-y: 0;
+  cursor: pointer;
+}
+.lh-domenu-start:before{
+  background-position-x: -44px;
+}
+.lh-domenu-pause:before{
+  background-position-x: 0;
+}
+.lh-domenu-over:before{
+  background-position-x: -88px;
+}
+
+.lh-domenu-desc{
+  font-size: 16px;
+  text-align: center;
+}
+.lh-domenu-desc>p:first-child{
+  color: #666666;
+}
+#lh-domenu-time{
+  padding-top: 18px;
+}
+
+.lh-indexDetail-buy{
+  display: block;
+  width:150px;
+  height: 46px;
+  text-align: center;
+  line-height: 46px;
+  font-size:16px;
+  margin:10px auto;
+  border:2px solid #c1c1c1;
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.lh-indexDetail-buy img{
+  vertical-align: sub;
+}
+
+/*购买贡品*/
+.lh-rgba-background{
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 100%;
+  height:100%;
+  background: rgba(0,0,0,0.3);
+  display: none;
+}
+.lh-tributes-buy,.lh-tributes-ischarge,.lh-tributes-payment{
+  width: 640px;
+  height:600px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+  background: #FFFFFF;
+  display: none;
+}
+.lh-tributes-title{
+  height:45px;
+  line-height: 45px;
+  color: #333333;
+  font-size: 18px;
+  padding-left: 30px;
+  background: #F8F8F8;
+}
+
+.lh-vip{
+  font-size: 14px;
+  padding:27px 30px;
+  color: #333333;
+  border-bottom: 1px solid #ececec;
+}
+.lh-vip-name{
+  padding-right: 30px;
+}
+
+.lh-tributes-list{
+  width:100%;
+  height:330px;
+  padding:0 30px;
+  margin-top: 25px;
+  overflow: auto;
+  box-sizing: border-box;
+}
+.lh-tributes-list::-webkit-scrollbar{
+  width:5px;
+  height:0;
+}
+.lh-tributes-list li{
+  float: left;
+  text-align: center;
+  margin:0 15px 20px;
+}
+.lh-tributes-list div{
+  width:108px;
+  height:108px;
+  border:1px solid #ECECEC;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+.lh-tributes-list input{
+  margin:0;
+  vertical-align: sub;
+}
+label{
+  line-height: 24px;
+  cursor: pointer;
+}
+.lh-tributes-btns,.lh-ischarge-btns,.lh-payment-btns{
+  padding:0 150px;
+  margin:20px 0;
+}
+.lh-tributes-btns span,.lh-ischarge-btns span,.lh-payment-btns span{
+  display: inline-block;
+  width:120px;
+  height:42px;
+  text-align: center;
+  line-height:42px;
+  font-size:16px;
+  background-color: #FFFFFF;
+  color: #333333;
+  border:1px solid #e4e4e4;
+  cursor: pointer;
+}
+.lh-tributes-btns .lh-tributes-sureBtn,.lh-ischarge-btns .lh-ischarge-sureBtn,.lh-payment-btns .lh-payment-sureBtn{
+  background-color: #ed6565;
+  color: #FFFFFF;
+  border:1px solid #ed6565;
+  margin-right:95px;
+}
+.lh-tributes-tips{
+  text-align: center;
+  color: #666666;
+  line-height:46px;
+}
+
+/*上贡好处*/
+.lh-ischarge-well{
+  font-size: 14px;
+  padding:10px 30px;
+  color: #333333;
+  border-bottom: 1px solid #ececec;
+}
+.lh-ischarge-well-name{
+  float: left;
+  line-height:22px;
+}
+.lh-ischarge-desc{
+  display: inline-block;
+  width: 500px;
+  color: #999999;
+  line-height: 24px;
+}
+
+.lh-ischarge-img{
+  width:100%;
+  height:355px;
+  padding:25px 0 0;
+  margin-bottom:45px;
+  box-sizing: border-box;
+  text-align: center;
+  position: relative;
+}
+.lh-ischarge-img img{
+  filter: blur(5px);
+  transition: all 2s linear;
+}
+
+/*上贡*/
+#triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 14px solid #F1F1F1;
+  margin:5px 0 0 25px;
+}
+
+.lh-vip p{
+  display: inline-block;
+  padding:0 5px;
+  line-height:30px;
+  background-color: #F1F1F1;
+}
+.lh-payment-info{
+  width:555px;
+  padding-top: 38px;
+  margin:0 auto 60px;
+}
+.lh-payment-info>span{
+  display: inline-block;
+  width: 89px;
+  height: 15px;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  color: #333333;
+  margin-left: 21px;
+  vertical-align: top;
+  line-height: 46px;
+}
+.lh-payment-type{
+  display: inline-block;
+  width: 384px;
+  margin-left: 18px;
+}
+.lh-payment-type>div{
+  padding-left: 6px;
+}
+.lh-lucky-bin {
+  width: 384px;
+  height: 46px;
+  border: solid 1px #e6e6e6;
+  padding-left:17px;
+  margin-bottom:41px;
+}
+.lh-payment-type img{
+  vertical-align: middle;
+  margin-right:10px;
+}
+.lh-type-wx{
+  margin:25px 0;
+}

@@ -1,0 +1,179 @@
+[class*='-content'] {
+  width: 1200px;
+  margin: 0 auto;
+}
+.bg1{
+  background-color:#F5C139;
+}
+.bg2{
+  background-color: #F7F7F7;
+}
+.bg3{
+  background-color: #078517;
+}
+.bg4{
+  background-color: #222222;
+}
+.bg5{
+  background-color: #1880D0;
+}
+.bg10{
+  background-color: #333333;
+}
+/*
+顶部header的样式
+*/
+.header{
+  width:100%;
+  height: 80px;
+}
+.lh-fl-header{
+  float: left;
+  font-size: 18px;
+  margin-left: 23px;
+  padding-top:18px;
+  font-weight:bold;
+  color: #FFFFFF;
+}
+.lh-fl-header img{
+  border-radius: 10px;
+  vertical-align: middle;
+}
+
+.lh-fr-header{
+  float: right;
+  overflow: hidden;
+}
+
+.lh-login-header{
+  float: left;
+  padding-top: 18px;
+}
+.login-register{
+  margin-top:13px;
+}
+.lh-login-spilit{
+  margin:0 7px;
+}
+.lh-userInfo{
+	overflow: hidden;
+}
+.lh-userInfo-link{
+	float: left;
+}
+.lh-userInfo-avatar{
+	float: left;
+	margin-right: 5px;
+  border-radius: 50%;
+}
+.lh-userInfo-name,.lh-userInfo-level{
+	line-height:21px;
+}
+.lh-logout{
+	line-height: 43px;
+	padding: 3px 7px;
+	margin-left: 7px;
+	border-radius: 5px;
+	background: #FFFFFF;
+}
+.lh-nav-header{
+  float: right;
+}
+
+.lh-nav-item{
+  display: inline-block;
+  width: 68px;
+  text-align: center;
+  margin: 0 5px;
+  padding: 18px 0 16px;
+}
+.lh-nav-item:before{
+  display: block;
+  width:23px;
+  height: 24px;
+  margin:0 auto 10px;
+  content: '';
+  background-image: url("../../img/web/nav-items.png");
+  background-repeat:no-repeat;
+  background-position-x: 0;
+  background-position-y: 0;
+}
+.lh-nav-header .lh-nav-item:nth-child(2):before {
+  background-position-x:-23px;
+}
+.lh-nav-header .lh-nav-item:nth-child(3):before{
+  background-position-x:-45px;
+}
+.lh-nav-header .lh-nav-item:last-child:before{
+  background-position-x:-68px;
+}
+/*
+中心内容
+*/
+
+.main-content{
+  background-color: #FFFFFF;
+  padding: 20px 40px;
+  box-sizing: border-box;
+}
+/*
+分页
+*/
+.pagination{
+	margin:56px auto;
+	text-align: center;
+}
+.lh-linkToIndex{
+  color: #333333;
+  line-height: 42px;
+}
+
+  /*
+底部footer的样式
+*/
+.footer {
+  width: 100%;
+  height: 226px;
+  text-align: center;
+}
+
+.lh-qr-footer {
+  height: 180px;
+  padding: 26px 145px 11px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.lh-qr-footer li {
+  float: left;
+  width: 100px;
+  margin: 0 41px;
+  padding-top: 100px;
+  text-align: center;
+  background-image: url("../../img/web/footer-items.png");
+  background-repeat: no-repeat;
+  background-position-x: 0;
+  background-position-y: 0;
+}
+.lh-qr-footer li:nth-child(2){
+  background-position-x: -102px;
+}
+.lh-qr-footer li:nth-child(3){
+  background-position-x: -204px;
+}
+.lh-qr-footer li:nth-child(4){
+  background-position-x: -306px;
+}
+.lh-qr-footer li:last-child{
+  background-position-x: -408px;
+}
+.lh-qr-footer li span {
+  line-height: 44px;
+}
+
+.lh-copyright-footer {
+  height: 46px;
+  line-height: 46px;
+  color: #343235;
+  background-color: #FFFFFF;
+}

@@ -1,0 +1,53 @@
+.lh-jingshuList-title,.lh-miji-title{
+  font-size: 16px;
+  line-height: 60px;
+  color: #333333;
+  font-weight:bold;
+}
+.lh-jingshuList-title:before,.lh-miji-title:before{
+  display: inline-block;
+  width: 23px;
+  height: 24px;
+  margin:0px 10px -5px 2px;
+  content: '';
+}
+.lh-jingshuList-title:before{
+  background: url("../../img/web/nav-items.png") no-repeat -23px 0;
+}
+.lh-miji-title:before{
+  background: url("../../img/web/lh-miji.png") no-repeat 0  0;
+  margin:-8px 0;
+}
+.lh-miji-detail{
+  line-height: 24px;
+  padding:23px 39px;
+  color: #333333;
+  background: #F8F8F8;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+.lh-jingshu-table{
+  table-layout: fixed;
+  text-align: center;
+  font-size: 14px;
+}
+.lh-jingshu-table th{
+  background-color: #F8F8F8;
+  height:40px;
+}
+.lh-jingshu-table tbody tr{
+  height: 56px;
+  border-bottom:1px solid #CCCCCC;
+}
+.lh-jingshu-table a{
+  color: #0e7fff;
+}
+.lh-jingshu-table a:before{
+  display: inline-block;
+  content: '';
+  width: 18px;
+  height:18px;
+  margin-right: 8px;
+  background: url("../../img/web/download.png") no-repeat 0 0;
+  vertical-align: middle;
+}

@@ -1,0 +1,90 @@
+.main-content{
+  background-color: rgba(0,0,0,0);
+}
+
+.lh-login-register{
+  width: 450px;
+  height: 457px;
+  margin:0 auto;
+  background-color: #FFFFFF;
+}
+.lh-login-register-type{
+  height:60px;
+  font-size: 18px;
+  background-color: #F5F5F5;
+}
+.lh-login-register-type span{
+  display: inline-block;
+  width: 225px;
+  text-align: center;
+  line-height:60px;
+  color: #999999;
+  cursor: pointer;
+}
+.lh-login-register-type span.current{
+  background-color: #FFFFFF;
+  color: #333333;
+}
+
+.lh-login-register-area{
+  padding:22px 36px;
+  position: relative;
+}
+.lh-login-register-area input{
+  width:376px;
+  height:44px;
+  line-height: 44px;
+  padding-left:18px;
+  margin: 12px 0;
+  border:1px solid #E6E6E6;
+  color: #999999;
+  box-sizing: border-box;
+}
+.lh-login-register-area .getCode{
+  width: 84px;
+  text-align: center;
+  line-height: 32px;
+  padding-left: 23px;
+  border-left:1px solid #E6E6E6;
+  position: absolute;
+  top:108px;
+  right:55px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.lh-error-tips{
+  color: #FF0000;
+  height:24px;
+  line-height: 24px;
+}
+.lh-login-register-sure{
+  display: block;
+  font-size: 18px;
+  text-align: center;
+  line-height:46px;
+  color: #FFFFFF;
+  background-color: #ed6565;
+  cursor: pointer;
+}
+.lh-login-others{
+  text-align: center;
+  color: #999999;
+  margin:35px 0;
+}
+.lh-login-others:before,.lh-login-others:after{
+  float: left;
+  content: '';
+  width:140px;
+  border-top: 1px solid #e6e6e6;
+  margin-top: 6px;
+}
+.lh-login-others:after{
+  float: right;
+}
+.lh-login-types{
+  text-align: center;
+}
+.lh-login-types img{
+  margin:0 53px;
+  cursor: pointer;
+}

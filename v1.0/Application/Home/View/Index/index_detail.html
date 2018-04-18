@@ -1,0 +1,220 @@
+<extend name="Base/common"/>
+<block name="title">祈福、许愿</block>
+<block name="style">
+  <link rel="stylesheet" href="__CSS_HOME__/index/index_detail.css">
+</block>
+<block name="main-content">
+  <div class="main-content">
+    <div class="lh-linkToIndex"><a href="{:U('Index/index')}">&lt;返回首页</a></div>
+    <div class="lh-indexDetail">
+      <p class="lh-indexDetail-title">祈福、许愿</p>
+      <div>
+        <img src="__IMG_HOME__/web/index_detail_01.png">
+        <div class="lh-tributes">
+          <ul class="lh-tributes-1f">
+            <li><img src="__IMG_HOME__/web/香.png" alt=""></li>
+            <li><img src="__IMG_HOME__/web/水果.png" alt=""></li>
+            <li><img src="__IMG_HOME__/web/蜡烛.png" alt=""></li>
+            <li><img src="__IMG_HOME__/web/花.png" alt=""></li>
+            <li><img src="__IMG_HOME__/web/香.png" alt=""></li>
+          </ul>
+          <ul class="lh-tributes-2f">
+            <li><img src="__IMG_HOME__/web/香.png" alt=""></li>
+          </ul>
+        </div>
+      </div>
+      <div class="lh-indexDetail-domenu">
+        <div class="lh-domenu lh-domenu-start">开始</div>
+        <div class="lh-domenu-desc">
+          <p>点击这里开始进行祈福、许愿</p>
+          <p id="lh-domenu-time">00:00:00</p>
+        </div>
+        <div class="lh-domenu lh-domenu-over">结束</div>
+      </div>
+      <span class="lh-indexDetail-buy">
+        <img src="__IMG_HOME__/web/shop-car.png" width="26" height="23">
+        购买贡品
+      </span>
+    </div>
+
+    <div class="lh-rgba-background">
+      <!--购买贡品-->
+      <div class="lh-tributes-buy">
+        <div class="lh-tributes-title">贡品购买</div>
+        <div class="lh-tributes-msg">
+          <p class="lh-vip">
+            <span class="lh-vip-name">会员：16912345678</span>
+            <span>等级：Lv1</span>
+          </p>
+          <ul class="lh-tributes-list">
+            <li>
+              <div>
+                <img src="__IMG_HOME__/web/香.png">
+              </div>
+              <label for="xiang">
+                <input type="checkbox" id="xiang" value="1">
+                供香
+              </label>
+              <p>20幸运币</p>
+            </li>
+            <li>
+              <div>
+                <img src="__IMG_HOME__/web/水果.png">
+              </div>
+              <label for="guo">
+                <input type="checkbox" id="guo" value="2">
+                供果
+              </label>
+              <p>20幸运币</p>
+            </li>
+            <li>
+              <div>
+                <img src="__IMG_HOME__/web/蜡烛.png">
+              </div>
+              <label for="deng">
+                <input type="checkbox" id="deng" value="3">
+                供灯
+              </label>
+              <p>20幸运币</p>
+            </li>
+            <li>
+              <div>
+                <img src="__IMG_HOME__/web/花.png">
+              </div>
+              <label for="hua">
+                <input type="checkbox" id="hua" value="4">
+                供花
+              </label>
+              <p>20幸运币</p>
+            </li>
+            <li>
+              <div>
+                <img src="__IMG_HOME__/web/香.png">
+              </div>
+              <label for="xiang1">
+                <input type="checkbox" id="xiang1" value="5">
+                供香
+              </label>
+              <p>20幸运币</p>
+            </li>
+            <li>
+              <div>
+                <img src="__IMG_HOME__/web/水果.png">
+              </div>
+              <label for="guo1">
+                <input type="checkbox" id="guo1" value="6">
+                供果
+              </label>
+              <p>20幸运币</p>
+            </li>
+            <li>
+              <div>
+                <img src="__IMG_HOME__/web/蜡烛.png">
+              </div>
+              <label for="deng1">
+                <input type="checkbox" id="deng1" value="7">
+                供灯
+              </label>
+              <p>20幸运币</p>
+            </li>
+            <li>
+              <div>
+                <img src="__IMG_HOME__/web/花.png">
+              </div>
+              <label for="hua1">
+                <input type="checkbox" id="hua1" value="8">
+                供花
+              </label>
+              <p>20幸运币</p>
+            </li>
+            <li>
+              <div>
+                <img src="__IMG_HOME__/web/花.png">
+              </div>
+              <label for="hua2">
+                <input type="checkbox" id="hua2" value="9">
+                供花
+              </label>
+              <p>20幸运币</p>
+            </li>
+          </ul>
+          <div class="lh-tributes-btns">
+            <span class="lh-tributes-sureBtn">确 定</span><span class="lh-tributes-cancleBtn">取 消</span>
+          </div>
+          <div class="lh-tributes-tips">
+            一次最多只能选择4种贡品，贡品有效时间为24小时
+          </div>
+        </div>
+      </div>
+      <!--是否上贡-->
+      <div class="lh-tributes-ischarge">
+        <div class="lh-tributes-title">是否上贡</div>
+        <div class="lh-ischarge-well">
+          <span class="lh-ischarge-well-name">上贡好处：</span>
+          <p class="lh-ischarge-desc">
+            这就是上贡好处这就是上贡好处这就是上贡好处这就是上贡好处这就是上贡好处这就是上贡好处这就是上贡好处这就是上贡好处这就是上贡好处
+          </p>
+        </div>
+        <div class="lh-ischarge-img">
+          <img src="__IMG_HOME__/web/符.png" height="100%">
+        </div>
+        <div class="lh-ischarge-btns">
+          <span class="lh-ischarge-sureBtn">上 贡</span><span class="lh-ischarge-cancleBtn">不上贡</span>
+        </div>
+      </div>
+      <!--上贡-->
+      <div class="lh-tributes-payment">
+        <div class="lh-tributes-title">上贡</div>
+        <div class="lh-payment-msg">
+          <div class="lh-vip">
+            <span class="lh-vip-name">会员：16912345678</span>
+            <span>等级：Lv1</span>
+            <div id="triangle-up"></div>
+            <p>会员等级越高，幸运级越高，折扣更高！</p>
+          </div>
+          <div class="lh-payment-info">
+            <span>上贡幸运币:</span>
+            <div class="lh-payment-type">
+              <input type="text" placeholder="请输入幸运币数量" class="lh-lucky-bin">
+              <div class="lh-type-ali">
+                <input type="radio" name="paytype" id="alipay" value="1">
+                <span>
+                  <img src="__IMG_HOME__/web/ali_pay.png" width="37" height="38">
+                  <label for="alipay">
+                    支付宝支付
+                  </label>
+                </span>
+              </div>
+              <div class="lh-type-wx">
+                <input type="radio" name="paytype" id="wxpay" value="2">
+                <span>
+                  <img src="__IMG_HOME__/web/wx_pay.png" width="37" height="38">
+                  <label for="wxpay">
+                    微信支付
+                  </label>
+                </span>
+              </div>
+              <div class="lh-type-cft">
+                <input type="radio" name="paytype" id="cftpay" value="3">
+                <span>
+                  <img src="__IMG_HOME__/web/cft.png" width="37" height="38">
+                  <label for="cftpay">
+                    财付通支付
+                  </label>
+                </span>
+              </div>
+
+            </div>
+          </div>
+          <div class="lh-payment-btns">
+            <span class="lh-payment-sureBtn">确 定</span><span class="lh-payment-cancleBtn">关闭</span>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</block>
+<block name="script">
+  <script src="__JS_HOME__/index/index_detail.js"></script>
+</block>

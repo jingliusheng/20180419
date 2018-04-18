@@ -1,0 +1,28 @@
+<extend name="Base/common"/>
+<block name="title">登录-注册</block>
+<block name="style">
+	<link rel="stylesheet" href="__CSS_HOME__/login/index.css">
+</block>
+<block name="main-content">
+	<div class="main-content">
+		<div class="lh-login-register">
+			<div class="lh-login-register-type">
+				<span class="current">普通登录</span><span>立即注册</span>
+			</div>
+			<div class="lh-login-register-area">
+				<input type="text" name="phone" maxlength="11" placeholder="请输入您的手机号码">
+				<input type="text" name="code" placeholder="请输入验证码"><span class="getCode">获取验证码</span>
+				<p class="lh-error-tips"></p>
+				<span class="lh-login-register-sure">登录</span>
+				<div class="lh-login-others">第三方登录</div>
+				<div class="lh-login-types">
+					<img src="__IMG_HOME__/web/lh-login-qq.png">
+					<img src="__IMG_HOME__/web/lh-login-sina.png">
+				</div>
+			</div>
+		</div>
+	</div>
+</block>
+<block name="script">
+	<script src="__JS_HOME__/login/index.js"></script>
+</block>

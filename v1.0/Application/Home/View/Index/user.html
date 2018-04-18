@@ -1,0 +1,67 @@
+<extend name="Base/common"/>
+<block name="title">个人中心</block>
+<block name="style">
+	<link rel="stylesheet" href="__CSS_HOME__/user/index.css">
+</block>
+<block name="main-content">
+	<div class="main-content">
+		<div class="lh-linkToIndex"><a href="{:U('Index/index')}">&lt;返回首页</a></div>
+		<div class="lh-user">
+			<img src="__IMG_HOME__/web/logo-icon.png" width="80" height="80" class="lh-userInfo-avatar lh-user-avatar">
+			<div class="lh-user-msg">
+				<p>
+					<span class="lh-user-name">12041000833</span>
+					<span class="lh-bindPhone">绑定手机</span>
+				</p>
+				<p>
+				  <span class="lh-user-level"><span></span>等级：Lv110</span>
+					<span class="lh-user-nextLevel">（距离Lv2只差350）</span>
+				</p>
+			</div>
+		</div>
+		<div class="lh-lucky-records">
+			<h3>幸运记录</h3>
+			<table class="lh-lucky-records-table">
+				<thead>
+					<tr>
+						<th width="98">编号</th>
+						<th width="257">幸运时间</th>
+						<th width="166">幸运类型</th>
+						<th width="211">幸运币</th>
+						<th width="122">金额</th>
+						<th width="244"></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>01</td>
+						<td>2017-10-13 15:30</td>
+						<td>上供</td>
+						<td>200000000</td>
+						<td>200000000</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>02</td>
+						<td>2017-10-13 15:30</td>
+						<td>上供</td>
+						<td>200</td>
+						<td>2000</td>
+						<td></td>
+					</tr>
+					<tr>
+						<td>03</td>
+						<td>2017-10-13 15:30</td>
+						<td>上供</td>
+						<td>200</td>
+						<td>2000</td>
+						<td></td>
+					</tr>
+				</tbody>
+			</table>
+			<div class="pagination">
+				这是分页
+			</div>
+		</div>
+	</div>
+</block>
